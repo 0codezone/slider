@@ -4,13 +4,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>slider</title>
+    <title>card-slider</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <div class="slider-container">
-        <h1>slider</h1>
+    <div class="container">
+        <h3>What Client's Says</h3>
+        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h5>
+
+        <div class="card">
+            <img src="./images/one.avif" alt="#" width="150" id="customer-img" class="img-card">
+            <h4 class="customer-name">Customer Name</h4>
+            <div class="review">
+                <span class="star">
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="star">
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="star">
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="star">
+                    <i class="fas fa-star"></i>
+                </span>
+                <span class="star">
+                    <i class="fas fa-star-half"></i>
+                </span>
+
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero quos mollitia odio dolores nobis numquam
+                impedit, laudantium repudiandae assumenda suscipit?</p>
+
+            <a href="#" class="btn prevBtn">
+                <i class="fas fa-long-arrow-alt-left"></i>
+            </a>
+            <a href="#" class="btn nextBtn">
+                <i class="fas fa-long-arrow-alt-right"></i>
+            </a>
+        </div>
     </div>
 
     <script src="./script.js"></script>
